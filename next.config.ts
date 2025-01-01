@@ -1,5 +1,5 @@
 import type { NextConfig } from "next";
-
+/** @type {import('next').NextConfig} */
 const nextConfig: NextConfig = {
   output: "export", // Generates static HTML/CSS/JS files
   images: {
