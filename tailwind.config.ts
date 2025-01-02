@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      spacing: {
+        "100vh-minus-header": "calc(100vh - 82px)",
+      },
     },
   },
   plugins: [require("daisyui")],

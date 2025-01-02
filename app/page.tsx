@@ -1,102 +1,142 @@
 import Image from "next/image";
-import nextLogo from "../public/next.svg"; // Adjust path as needed
+import Logo from "@/public/next_logo.png";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src={nextLogo}
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+    <>
+      <header>
+        <nav className="navbar p-6 pb-0">
+          <div className="flex-1">
             <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+              width={85}
+              height={85}
+              src={Logo}
+              className="logo"
+              alt="Logo"
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
+          </div>
+          <div className="flex-none">
+            <ul className="flex gap-6 text-lg font-semibold">
+              <li>
+                <a href="/#about_me">About me</a>
+              </li>
+              <li>
+                <a href="/#my_work">My work</a>
+              </li>
+              <li>
+                <a href="/#contact_me">Get in touch</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section
+          id="hero"
+          className="min-h-[calc(100vh-50px)] flex flex-col justify-center gap-6 p-6"
+        >
+          <h1 className="text-6xl	">Hi, I'm Kareem Sakr</h1>
+          <p className="text-lg leading-8">
+            A full-stack developer passionate about building meaningful digital
+            experiences that connect people and make the world a better place.
+            With a human-centered approach and a knack for fostering
+            collaboration, I turn ideas into impactful solutions. Whether you're
+            a startup founder or a freelance client, let’s create something
+            amazing together.
+          </p>
+          <div className="flex gap-4">
+            <button className="btn btn-primary">Explore My Work</button>
+            <button className="btn">Contact Me</button>
+          </div>
+        </section>
+        <section id="about_me">
+          <p>
+            I’m a developer with a rare combination of technical expertise and
+            exceptional communication skills. My superpower is bridging gaps
+            between developers, designers, and stakeholders to foster harmony
+            within teams. From automating nationwide systems to enhancing user
+            journeys for millions, my work is driven by the belief that
+            understanding people is the key to solving complex challenges.
+          </p>
+          <article>
+            <h2>Here’s what I bring to the table:</h2>
+            <ul>
+              <li>
+                Expertise in HTML, CSS, JavaScript, React, Next.js, and React
+                Native.
+              </li>
+              <li>Creative coding with p5.js and Unity 3D.</li>
+              <li>
+                A focus on delivering robust documentation and fostering
+                seamless collaboration
+              </li>
+            </ul>
+          </article>
+        </section>
+        <section id="my_work">
+          <h2>Passion Projects That Solve Real Problems</h2>
+          <p>
+            Here’s what I’m building in my free time to bring value and joy to
+            people’s lives:
+          </p>
+          <ul>
+            <li>
+              Matchmaker App: A dating platform where real people, not
+              algorithms, help users connect.
+              <div>
+                <button>View Project</button>
+                <button>View Demo</button>
+              </div>
+            </li>
+            <li>
+              Writer’s Productivity App: Helping writers meet daily word goals
+              and rewarding consistency.
+              <div>
+                <button>View Project</button>
+                <button>View Demo</button>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section id="career_summary">
+          <h2>Career Accomplishments That Make an Impact:</h2>
+          <ul>
+            <li>
+              <h3>Gas Station Automation System (UAE)</h3>
+              <p>
+                Led the development of a nationwide system serving millions.
+                Built user interfaces, backend APIs, and managed database
+                operations. Collaborated directly with Abu Dhabi National Oil
+                Company to deliver seamless solutions.
+              </p>
+            </li>
+            <li>
+              <h3>COVID Testing Desktop Application</h3>
+              <p>
+                Created a desktop app using OpenCV and AWS serverless backend
+                for a startup revolutionizing decentralized medical testing.
+                Delivered investor-ready demos and helped with regulatory
+                compliance
+              </p>
+            </li>
+            <li>
+              <h3>Best Buy Canada Website</h3>
+              <p>
+                Enhanced UX for category menus, collaborated with UX designers
+                to improve customer journeys, and contributed to launching a new
+                customer returns system
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section id="contact_me">
+          <p>
+            Excited to collaborate on your next big idea? Let’s make it happen.
+            Reach out to me to discuss how we can work together!
+          </p>
+        </section>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      <footer></footer>
+    </>
   );
 }

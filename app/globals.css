@@ -25,3 +25,14 @@ h1,
 h2 {
   font-family: "Abril Fatface", Helvetica, sans-serif;
 }
+
+.logo {
+  content: url("/next_logo.png");
+}
+
+/* Logo for dark mode */
+@media (prefers-color-scheme: dark) {
+  .logo {
+    content: url("/next_logo_dark.png");
+  }
+}
