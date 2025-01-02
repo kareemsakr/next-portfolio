@@ -36,14 +36,14 @@ export default function Home() {
           id="hero"
           className="min-h-[calc(100vh-50px)] flex flex-col justify-center gap-6 p-6"
         >
-          <h1 className="text-6xl	">Hi, I'm Kareem Sakr</h1>
+          <h1 className="text-6xl	">Hi, I&apos;m Kareem Sakr</h1>
           <p className="text-lg leading-8">
             A full-stack developer passionate about building meaningful digital
             experiences that connect people and make the world a better place.
             With a human-centered approach and a knack for fostering
-            collaboration, I turn ideas into impactful solutions. Whether you're
-            a startup founder or a freelance client, let&apos;s create something
-            amazing together.
+            collaboration, I turn ideas into impactful solutions. Whether
+            you&apos;re a startup founder or a freelance client, let&apos;s
+            create something amazing together.
           </p>
           <div className="flex gap-4">
             <button className="btn btn-primary">Explore My Work</button>
