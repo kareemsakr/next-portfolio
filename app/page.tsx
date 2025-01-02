@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Logo from "@/public/next_logo.png";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -18,13 +19,13 @@ export default function Home() {
           <div className="flex-none">
             <ul className="flex gap-6 text-lg font-semibold">
               <li>
-                <a href="/#about_me">About me</a>
+                <Link href="/#about_me">About me</Link>
               </li>
               <li>
-                <a href="/#my_work">My work</a>
+                <Link href="/#my_work">My work</Link>
               </li>
               <li>
-                <a href="/#contact_me">Get in touch</a>
+                <Link href="/#contact_me">Get in touch</Link>
               </li>
             </ul>
           </div>
@@ -41,7 +42,7 @@ export default function Home() {
             experiences that connect people and make the world a better place.
             With a human-centered approach and a knack for fostering
             collaboration, I turn ideas into impactful solutions. Whether you're
-            a startup founder or a freelance client, let’s create something
+            a startup founder or a freelance client, let&apos;s create something
             amazing together.
           </p>
           <div className="flex gap-4">
@@ -51,15 +52,15 @@ export default function Home() {
         </section>
         <section id="about_me">
           <p>
-            I’m a developer with a rare combination of technical expertise and
-            exceptional communication skills. My superpower is bridging gaps
+            I&apos;m a developer with a rare combination of technical expertise
+            and exceptional communication skills. My superpower is bridging gaps
             between developers, designers, and stakeholders to foster harmony
             within teams. From automating nationwide systems to enhancing user
             journeys for millions, my work is driven by the belief that
             understanding people is the key to solving complex challenges.
           </p>
           <article>
-            <h2>Here’s what I bring to the table:</h2>
+            <h2>Here&apos;s what I bring to the table:</h2>
             <ul>
               <li>
                 Expertise in HTML, CSS, JavaScript, React, Next.js, and React
@@ -76,8 +77,8 @@ export default function Home() {
         <section id="my_work">
           <h2>Passion Projects That Solve Real Problems</h2>
           <p>
-            Here’s what I’m building in my free time to bring value and joy to
-            people’s lives:
+            Here&apos;s what I&apos;m building in my free time to bring value
+            and joy to people&apos;s lives:
           </p>
           <ul>
             <li>
@@ -89,8 +90,8 @@ export default function Home() {
               </div>
             </li>
             <li>
-              Writer’s Productivity App: Helping writers meet daily word goals
-              and rewarding consistency.
+              Writer&apos;s Productivity App: Helping writers meet daily word
+              goals and rewarding consistency.
               <div>
                 <button>View Project</button>
                 <button>View Demo</button>
@@ -131,8 +132,8 @@ export default function Home() {
         </section>
         <section id="contact_me">
           <p>
-            Excited to collaborate on your next big idea? Let’s make it happen.
-            Reach out to me to discuss how we can work together!
+            Excited to collaborate on your next big idea? Let&apos;s make it
+            happen. Reach out to me to discuss how we can work together!
           </p>
         </section>
       </main>
