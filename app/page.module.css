@@ -1,0 +1,23 @@
+/* .logo{
+    font-weight: 900;
+    letter-spacing: -7px;
+    font-size: 2.25rem;
+
+} */
+
+.btn_square {
+  padding-inline: 1.5em;
+  padding-block: 0.5em;
+  border: 2px solid #000;
+  font-weight: 700;
+}
+
+.my_menu {
+  @apply flex-none hidden flex-col md:flex absolute top-0 right-0 translate-x-7 -translate-y-16 transform transition-all duration-300 ease-in-out md:transform-none md:static;
+}
+
+header:has(.hamburger_menu:checked) {
+  & .my_menu {
+    @apply flex -translate-x-7 translate-y-16;
+  }
+}

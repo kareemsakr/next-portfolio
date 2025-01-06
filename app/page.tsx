@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Logo from "@/public/next_logo.png";
 import GithubIcon from "@/public/github-icon.svg";
 import LinkedinIcon from "@/public/linkedin-icon.svg";
 import ProfilePic from "@/public/profile_pic.jpg";
@@ -8,32 +7,47 @@ import {
   CodeBracketIcon,
   DocumentTextIcon,
   UsersIcon,
+  ArrowDownIcon,
+  Bars3Icon,
+  XMarkIcon,
 } from "@heroicons/react/24/solid";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <>
       <header>
-        <nav className="navbar p-6 pb-0">
+        <nav className="navbar px-6 pb-0 relative">
           <div className="flex-1">
-            <Image
-              width={85}
-              height={85}
-              src={Logo}
-              className="logo"
-              alt="Logo"
-            />
+            <p className="font-black text-4xl tracking-[-7px] hover:tracking-normal transition-all duration-300">
+              KSAKR.IO
+            </p>
           </div>
-          <div className="flex-none">
-            <ul className="flex gap-6 text-lg font-semibold">
-              <li>
-                <Link href="/#about_me">About me</Link>
+          <label
+            htmlFor="hamburger_menu"
+            className="swap swap-rotate md:hidden"
+          >
+            <input
+              id="hamburger_menu"
+              className={styles.hamburger_menu}
+              type="checkbox"
+            />
+            <Bars3Icon className="swap-off size-8" />
+            <XMarkIcon className="swap-on size-8" />
+          </label>
+          <div className={styles.my_menu}>
+            <ul
+              className={`flex flex-col text-lg font-semibold tracking-[-1px] border-2 border-foreground p-3 gap-2 bg-background shadow-2xl 
+                md:text-2xl md:gap-6 md:flex-row md:shadow-none md:bg-transparent md:border-0`}
+            >
+              <li className="border-b-2 border-background hover:border-foreground transition-all duration-500 pr-16 md:pr-0 md:translate-x-0">
+                <Link href="/#about_me">About Me</Link>
               </li>
-              <li>
-                <Link href="/#my_work">My work</Link>
+              <li className="border-b-2 border-background hover:border-foreground transition-all duration-500 pr-16 md:pr-0 md:translate-x-0">
+                <Link href="/#my_work">My Work</Link>
               </li>
-              <li>
-                <Link href="/#contact_me">Get in touch</Link>
+              <li className="border-b-2 border-background hover:border-foreground transition-all duration-500 pr-16 md:pr-0 md:translate-x-0">
+                <Link href="/#contact_me">Get In Touch</Link>
               </li>
             </ul>
           </div>
@@ -45,18 +59,31 @@ export default function Home() {
           id="hero"
           className="min-h-[calc(100vh-50px)] flex flex-col justify-center gap-6 p-6"
         >
-          <h1 className="text-6xl	">Hi, I&apos;m Kareem Sakr</h1>
-          <p className="text-lg leading-8 md:text-2xl md:leading-10 md:max-w-[50%]">
-            A full-stack developer passionate about building meaningful digital
-            experiences that connect people and make the world a better place.
-            With a human-centered approach and a knack for fostering
-            collaboration, I turn ideas into impactful solutions. Whether
-            you&apos;re a startup founder or a freelance client, let&apos;s
-            create something amazing together.
+          <p className="font-bold text-foreground text-opacity-70 pl-[2.3] md:pl-2 -mb-8">
+            Hi, I&apos;M KAREEM
+          </p>
+          <h1 className="text-5xl md:text-9xl font-bold">
+            FULL-STACK DEVELOPER
+          </h1>
+          <p className="pl-2 font-bold text-foreground text-opacity-60 text-md leading-8 md:text-2xl md:leading-10 lg:max-w-[50%] ">
+            With a passion for crafting meaningful digital experiences that
+            connect people. With a human-centered approach and collaborative
+            mindset, I turn ideas into impactful solutions. Let&apos;s create
+            something amazing together.
           </p>
           <div className="flex gap-4">
-            <button className="btn btn-primary text-lg">Explore My Work</button>
-            <button className="btn text-lg">Contact Me</button>
+            <button className="font-bold border-2 border-foreground px-2 py-2 md:px-6 md:py-4 md:text-2xl md:border-4">
+              Explore My Work
+            </button>
+            <button className="font-bold border-2 border-foreground px-2 py-2 md:px-6 md:py-4 md:text-2xl md:border-4">
+              Contact Me
+            </button>
+          </div>
+          <div className="flex justify-center md:justify-end">
+            <ArrowDownIcon className="size-12 animate-bounce-slow" />
+            <p className="hidden rotate-90 -translate-x-6 -translate-y-4 md:block">
+              SCROLL
+            </p>
           </div>
         </section>
 
@@ -75,15 +102,16 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="md:max-w-[30%]">
-              <p className="text-lg leading-8 md:text-2xl md:leading-10 pb-6">
+            <div className="md:max-w-[35%]">
+              {/* <p className="text-lg leading-8 md:text-2xl md:leading-10 pb-6"> */}
+              <p className="pl-2 pb-6 font-bold text-foreground text-opacity-60 text-md leading-8 md:text-2xl md:leading-10">
                 My main skillset is bridging gaps between crossfunctional teams
                 and stakeholders to foster harmony and drive results. From
                 automating nationwide systems to enhancing user journeys for
                 millions, my work is driven by the belief that understanding
                 people is the key to solving complex challenges.
               </p>
-              <ul className="flex gap-6 w-full justify-start">
+              <ul className="flex gap-6 w-full justify-center">
                 <li>
                   <Link
                     target="_blank"
@@ -110,7 +138,7 @@ export default function Home() {
                 </div>
                 <p>
                   Well seasoned in all things Web. HTML, CSS, JavaScript, React,
-                  Next.js and much more.
+                  Next.js and also Python and Laravel.
                 </p>
               </li>
               <li className="p-4 rounded-lg flex-1 font-semibold bg-kubio-color-5 flex flex-col gap-6">

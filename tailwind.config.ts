@@ -8,6 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        "bounce-slow": {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+      },
+      animation: {
+        "bounce-slow": "bounce-slow 1s infinite",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
