@@ -11,6 +11,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "regal-blue": "#243c5a",
+        "kubio-color-5": "#f0f4ff",
+        "papaya-orange": "#fcb828",
       },
       spacing: {
         "100vh-minus-header": "calc(100vh - 82px)",
