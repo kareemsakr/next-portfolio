@@ -55,21 +55,30 @@ export default function Home() {
           </div>
         </nav>
       </header>
+
       <main>
         <section
           id="hero"
           className="min-h-[calc(100vh-50px)] flex flex-col justify-center gap-6 p-6"
         >
           <p className="font-bold text-black text-opacity-60 text-xs pl-[2.3] -mb-8 md:pl-2 md:text-base">
-            I&apos;M KAREEM, I <em>BUILD</em>
+            I&apos;M KAREEM, <em>FULL-STACK DEVELOPER</em>
           </p>
-          <h1 className="text-5xl md:text-9xl font-bold">
-            TECH THAT
-            <br />
-            <em>IMPACTS</em>
+          <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+            Building
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-900 to-papaya-orange">
+              Digital
+              <br />
+              Solutions
+            </span>
+            That
+            <br /> Matter
           </h1>
+
           <p className="pl-2 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10 lg:max-w-[50%] ">
-            Crafting digital experiences that deliver **results**.
+            Specializing in scalable web applications that transform ideas into
+            impactful digital experiences. Expert in React, Next.js, and cloud
+            technologies.
           </p>
           <div className="flex gap-4">
             <button className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button hover:scale-105  md:px-6 md:py-4 md:text-2xl md:border-4">
@@ -138,64 +147,6 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          {/* <article className="flex flex-col gap-10 items-center py-24 md:max-w-[80%]">
-            <h2 className="text-4xl font-bold">What I bring to the table:</h2>
-            <ul className="flex gap-6 flex-wrap">
-              <li className="p-4 flex-1 font-semibold flex flex-col gap-6 shadow-custom min-h-[250px]">
-                <div className="flex gap-2 items-center">
-                  <CodeBracketIcon className="size-12 " />
-                  <h3 className="font-bold text-xl">Technical Skills</h3>
-                </div>
-                <p className="pl-4 text-black text-opacity-60 text-md md:text-xl">
-                  Seasoned in all things Web.{" "}
-                  <span className="badge badge-outline text-black text-opacity-100">
-                    HTML
-                  </span>{" "}
-                  <span className="badge badge-outline text-black text-opacity-100">
-                    CSS
-                  </span>{" "}
-                  <span className="badge badge-outline text-black text-opacity-100">
-                    JS
-                  </span>{" "}
-                  <span className="badge badge-outline text-black text-opacity-100">
-                    React
-                  </span>{" "}
-                  <span className="badge badge-outline text-black text-opacity-100">
-                    NEXT.JS
-                  </span>{" "}
-                  and also{" "}
-                  <span className="badge badge-outline text-black text-opacity-100">
-                    Python
-                  </span>{" "}
-                  <span className="badge badge-outline text-black text-opacity-100">
-                    {" "}
-                    PHP/Laravel
-                  </span>{" "}
-                  and much more.
-                </p>
-              </li>
-              <li className="p-4 flex-1 font-semibold flex flex-col gap-6 shadow-custom min-h-[250px]">
-                <div className="flex gap-2 items-center">
-                  <DocumentTextIcon className="size-12 " />
-                  <h3 className="font-bold text-xl">Robust Documentation</h3>
-                </div>
-                <p className="pl-4 text-black text-opacity-60 text-md md:text-xl">
-                  A focus on delivering comprehensive documentation and
-                  fostering seamless collaboration.
-                </p>
-              </li>
-              <li className="p-4 flex-1 font-semibold flex flex-col gap-6 shadow-custom min-h-[250px]">
-                <div className="flex gap-2 items-center">
-                  <UsersIcon className="size-12 " />
-                  <h3 className="font-bold text-xl">Stakeholder Management</h3>
-                </div>
-                <p className="pl-4 text-black text-opacity-60 text-md md:text-xl">
-                  Ensuring alignment between technical solutions and business
-                  goals through clear communication and collaboration.
-                </p>
-              </li>
-            </ul>
-          </article> */}
         </section>
         <section id="skills" className="py-20">
           <div className="container mx-auto px-4">
@@ -210,7 +161,7 @@ export default function Home() {
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+              <div className="bg-white shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
                 <div className="flex items-center gap-4 mb-6">
                   <div className="p-3 bg-blue-100 rounded-lg text-blue-600">
                     <svg
@@ -303,7 +254,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+              <div className="bg-white  shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
                 <div className="flex items-center gap-4 mb-6">
                   <div className="p-3 bg-blue-100 rounded-lg text-blue-600">
                     <svg
@@ -414,7 +365,7 @@ export default function Home() {
                 </ul>
               </div>
 
-              <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+              <div className="bg-white  shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
                 <div className="flex items-center gap-4 mb-6">
                   <div className="p-3 bg-blue-100 rounded-lg text-blue-600">
                     <svg
