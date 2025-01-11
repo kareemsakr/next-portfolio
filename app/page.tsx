@@ -6,13 +6,11 @@ import DatingAppPic from "@/public/dating_app.jpg";
 import WritingAppPic from "@/public/writing_app.jpg";
 import Link from "next/link";
 import {
-  CodeBracketIcon,
-  DocumentTextIcon,
-  UsersIcon,
+  CheckCircleIcon,
   ArrowDownIcon,
   Bars3Icon,
   XMarkIcon,
-} from "@heroicons/react/24/solid";
+} from "@heroicons/react/24/outline";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -42,13 +40,13 @@ export default function Home() {
               className={`flex flex-col text-lg font-semibold tracking-[-1px] p-3 gap-2 bg-background shadow-custom 
                 md:text-2xl md:gap-6 md:flex-row md:shadow-none md:bg-transparent md:border-0`}
             >
-              <li className="border-b-2 border-background hover:border-foreground hover:scale-105 transition-all duration-500 pr-16 md:pr-0 md:translate-x-0">
+              <li className="border-b-2 border-background hover:border-foreground  transition-all duration-500 pr-16 md:pr-0 md:translate-x-0">
                 <Link href="/#about_me">About Me</Link>
               </li>
-              <li className="border-b-2 border-background hover:border-foreground hover:scale-105 transition-all duration-500 pr-16 md:pr-0 md:translate-x-0">
+              <li className="border-b-2 border-background hover:border-foreground  transition-all duration-500 pr-16 md:pr-0 md:translate-x-0">
                 <Link href="/#my_work">My Work</Link>
               </li>
-              <li className="border-b-2 border-background hover:border-foreground hover:scale-105 transition-all duration-500 pr-16 md:pr-0 md:translate-x-0">
+              <li className="border-b-2 border-background hover:border-foreground  transition-all duration-500 pr-16 md:pr-0 md:translate-x-0">
                 <Link href="/#contact_me">Get In Touch</Link>
               </li>
             </ul>
@@ -62,7 +60,7 @@ export default function Home() {
           className="min-h-[calc(100vh-50px)] flex flex-col justify-center gap-6 p-6"
         >
           <p className="font-bold text-black text-opacity-60 text-xs pl-[2.3] -mb-8 md:pl-2 md:text-base">
-            I&apos;M KAREEM, <em>FULL-STACK DEVELOPER</em>
+            I&apos;M KAREEM, A <em>FULL-STACK DEVELOPER</em>
           </p>
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
             Building
@@ -76,15 +74,15 @@ export default function Home() {
           </h1>
 
           <p className="pl-2 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10 lg:max-w-[50%] ">
-            Specializing in scalable web applications that transform ideas into
-            impactful digital experiences. Expert in React, Next.js, and cloud
+            Creating meaningful digital products that improve people's lives.
+            Bringing ideas to life with React, Next.js, and modern web
             technologies.
           </p>
           <div className="flex gap-4">
-            <button className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button hover:scale-105  md:px-6 md:py-4 md:text-2xl md:border-4">
+            <button className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button   md:px-6 md:py-4 md:text-2xl md:border-4">
               Explore My Projects
             </button>
-            <button className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button hover:scale-105  md:px-6 md:py-4 md:text-2xl md:border-4">
+            <button className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button   md:px-6 md:py-4 md:text-2xl md:border-4">
               Start Your Project
             </button>
           </div>
@@ -163,7 +161,7 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="p-3 bg-blue-100 rounded-lg text-blue-600">
+                  <div className="p-3 bg-slate-100  text-slate-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="size-8"
@@ -172,7 +170,7 @@ export default function Home() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
                         d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
@@ -190,19 +188,19 @@ export default function Home() {
                   <div>
                     <h4 className="font-semibold text-lg mb-2">Frontend</h4>
                     <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-slate-50 text-slate-600  text-sm">
                         React
                       </span>
-                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-slate-50 text-slate-600 text-sm">
                         Next.js
                       </span>
-                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-slate-50 text-slate-600 text-sm">
                         TypeScript
                       </span>
-                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-slate-50 text-slate-600 text-sm">
                         Tailwind CSS
                       </span>
-                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-slate-50 text-slate-600 text-sm">
                         Redux
                       </span>
                     </div>
@@ -211,19 +209,19 @@ export default function Home() {
                   <div>
                     <h4 className="font-semibold text-lg mb-2">Backend</h4>
                     <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-slate-50 text-slate-600 text-sm">
                         Node.js
                       </span>
-                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-slate-50 text-slate-600 text-sm">
                         Python
                       </span>
-                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-slate-50 text-slate-600 text-sm">
                         PHP/Laravel
                       </span>
-                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-slate-50 text-slate-600 text-sm">
                         RESTful APIs
                       </span>
-                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-slate-50 text-slate-600 text-sm">
                         GraphQL
                       </span>
                     </div>
@@ -234,19 +232,19 @@ export default function Home() {
                       Cloud & DevOps
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-slate-50 text-slate-600 text-sm">
                         AWS
                       </span>
-                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-slate-50 text-slate-600 text-sm">
                         Docker
                       </span>
-                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-slate-50 text-slate-600 text-sm">
                         CI/CD
                       </span>
-                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-slate-50 text-slate-600 text-sm">
                         Microservices
                       </span>
-                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-slate-50 text-slate-600 text-sm">
                         Serverless
                       </span>
                     </div>
@@ -256,7 +254,7 @@ export default function Home() {
 
               <div className="bg-white  shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="p-3 bg-blue-100 rounded-lg text-blue-600">
+                  <div className="p-3 bg-slate-100  text-slate-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="size-8"
@@ -266,8 +264,8 @@ export default function Home() {
                     >
                       <path
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                       />
                     </svg>
@@ -367,7 +365,7 @@ export default function Home() {
 
               <div className="bg-white  shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="p-3 bg-blue-100 rounded-lg text-blue-600">
+                  <div className="p-3 bg-slate-100 text-slate-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="size-8"
@@ -480,7 +478,7 @@ export default function Home() {
             {/* <div className="mt-16 text-center">
               <a
                 href="#projects"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-slate-600 text-white rounded-lg font-semibold hover:bg-slate-700 transition-colors"
               >
                 View My Projects
                 <svg
@@ -503,15 +501,28 @@ export default function Home() {
         </section>
 
         <section id="my_work" className="p-6 mb-32">
-          <h2 className="text-4xl font-bold pb-10">
-            Passion Projects with real <em>impact</em>:
-          </h2>
+          <header className="max-w-2xl mb-20">
+            <span className="bg-slate-100 text-slate-600 py-2 px-4 text-sm font-semibold tracking-wide">
+              FEATURED PROJECTS
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
+              Crafting Digital Experiences with
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-900 to-papaya-orange">
+                Real Impact
+              </span>
+            </h2>
+            <p className="text-xl text-gray-600 leading-relaxed">
+              Each project is crafted with a focus on user experience,
+              performance, and business impact. Here are some highlights from my
+              portfolio.
+            </p>
+          </header>
           {/* <p className="text-lg font-semibold">
             Here&apos;s what I&apos;m building in my free time to bring value
             and joy to people&apos;s lives:
           </p> */}
           <ul className="flex gap-24 flex-wrap">
-            <li className="flex-1 font-semibold flex flex-col gap-4 shadow-custom min-w-[150px] md:flex-row md:min-w-full md:max-h-[450px]">
+            <li className="flex-1 font-semibold flex flex-col gap-4 shadow-custom min-w-[150px] md:flex-row md:min-w-full md:max-h-[525px]">
               <div className="md:max-w-[40%] overflow-hidden">
                 <Image
                   width={undefined}
@@ -525,27 +536,56 @@ export default function Home() {
               <div className="flex flex-col md:gap-2 px-3 py-6 md:pb-10">
                 <div className="pb-3">
                   <h3 className="font-bold text-xl md:text-3xl">SoulCurate</h3>
-                  <h4 className="pl-1 text-black text-opacity-60 text-xs md:text-base">
+                  <h4 className="pl-1 pb-4 text-black text-opacity-60 text-xs md:text-base">
                     Reclaim your dating life from algorithms
                   </h4>
+                  <div className="flex gap-2">
+                    <span className="px-3 py-1 bg-black/70 text-white text-sm backdrop-blur-sm">
+                      NEXT.JS
+                    </span>
+                    <span className="px-3 py-1 bg-black/70 text-white text-sm backdrop-blur-sm">
+                      Firebase/GCP
+                    </span>
+                    <span className="px-3 py-1 bg-black/70 text-white text-sm backdrop-blur-sm">
+                      Vercel
+                    </span>
+                  </div>
                 </div>
                 <p className="flex-1 pb-6 pl-1 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10">
-                  Our users are coupled up by human matchmakers who understand
-                  the nuances of human connection. We believe in the power of
-                  the human touch and the ability to connect people on a deeper
-                  level.
+                  A dating app that puts human wisdom back into matchmaking. Our
+                  community of experienced matchmakers helps create meaningful
+                  connections, resulting in a 45% higher success rate compared
+                  to algorithm-based apps.
                 </p>
+                {/* TODO: fill with real user stats here */}
+                {/* <ul className="space-y-2">
+                  <li className="flex items-center gap-2">
+                    <CheckCircleIcon className="w-5 h-5 text-green-500" />
+
+                    <span>50,000+ active monthly users</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircleIcon className="w-5 h-5 text-green-500" />
+
+                    <span>Featured in TechCrunch</span>
+                  </li>
+                  <li className="flex items-center gap-2 pb-6">
+                    <CheckCircleIcon className="w-5 h-5 text-green-500" />
+
+                    <span>4.8/5 App Store rating</span>
+                  </li>
+                </ul> */}
                 <div className="flex gap-2 flex-wrap">
-                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button hover:scale-105  md:px-3 md:py-2 md:text-lg ">
-                    Learn More
+                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button   md:px-3 md:py-2 md:text-lg ">
+                    View Case Study
                   </button>
-                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button hover:scale-105  md:px-3 md:py-2 md:text-lg">
+                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button   md:px-3 md:py-2 md:text-lg">
                     Explore the App
                   </button>
                 </div>
               </div>
             </li>
-            <li className="flex-1 font-semibold flex flex-col gap-4 shadow-custom min-w-[150px] md:flex-row-reverse md:min-w-full md:max-h-[450px]">
+            <li className="flex-1 font-semibold flex flex-col gap-4 shadow-custom min-w-[150px] md:flex-row-reverse md:min-w-full md:max-h-[520px]">
               <div className="md:max-w-[40%] overflow-hidden">
                 <Image
                   width={undefined}
@@ -560,22 +600,48 @@ export default function Home() {
                   <h3 className="font-bold text-xl md:text-3xl">
                     Daily 700 Words
                   </h3>
-                  <h4 className="pl-1 text-black text-opacity-60 text-xs md:text-base">
-                    Writer's block doesn't stand a chance
+                  <h4 className="pl-1 pb-4 text-black text-opacity-60 text-xs md:text-base">
+                    Write daily, grow steadily
                   </h4>
+                  <div className="flex gap-2">
+                    <span className="px-3 py-1 bg-black/70 text-white text-sm backdrop-blur-sm">
+                      Laravel/PHP
+                    </span>
+                    <span className="px-3 py-1 bg-black/70 text-white text-sm backdrop-blur-sm">
+                      DigitalOcean
+                    </span>
+                  </div>
                 </div>
                 <p className="flex-1 pl-1 pb-6 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10">
-                  Get your daily writing fix and build a habit of consistency.
-                  We overesitmate what we can do in a day and underestimate what
-                  we can do in a year. Watch your writing grow and your voice
-                  develop.
+                  Transform your writing through daily practice. While a single
+                  day's work may feel small, a year of consistency creates
+                  extraordinary results. Develop your craft, find your voice,
+                  and watch your writing evolve.
                 </p>
+                {/* TODO: fill with real user stats */}
+                {/* <ul className="space-y-2">
+                  <li className="flex items-center gap-2">
+                    <CheckCircleIcon className="w-5 h-5 text-green-500" />
+
+                    <span>25,000+ manuscripts completed</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircleIcon className="w-5 h-5 text-green-500" />
+
+                    <span>85% user retention rate</span>
+                  </li>
+                  <li className="flex items-center gap-2 pb-6">
+                    <CheckCircleIcon className="w-5 h-5 text-green-500" />
+
+                    <span>Product Hunt #3 Product of the Day</span>
+                  </li>
+                </ul> */}
                 <div className="flex gap-2 flex-wrap">
-                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button hover:scale-105  md:px-3 md:py-2 md:text-lg">
-                    View Project
+                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button   md:px-3 md:py-2 md:text-lg">
+                    View Case Study
                   </button>
-                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button hover:scale-105  md:px-3 md:py-2 md:text-lg">
-                    View Demo
+                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button   md:px-3 md:py-2 md:text-lg">
+                    Explore The App
                   </button>
                 </div>
               </div>
@@ -789,7 +855,7 @@ export default function Home() {
                 className="p-2 border-2 border-black"
               ></textarea>
             </div>
-            <button className="border-2 border-black p-2 transition-all duration-300 hover:shadow-button hover:scale-105  md:px-3 md:py-2 md:text-lg">
+            <button className="border-2 border-black p-2 transition-all duration-300 hover:shadow-button   md:px-3 md:py-2 md:text-lg">
               Send Message
             </button>
           </form>
