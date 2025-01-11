@@ -55,32 +55,28 @@ export default function Home() {
           </div>
         </nav>
       </header>
-
       <main>
         <section
           id="hero"
           className="min-h-[calc(100vh-50px)] flex flex-col justify-center gap-6 p-6"
         >
           <p className="font-bold text-black text-opacity-60 text-xs pl-[2.3] -mb-8 md:pl-2 md:text-base">
-            I&apos;M KAREEM, YOUR <em>GUIDE</em> TO
+            I&apos;M KAREEM, I <em>BUILD</em>
           </p>
           <h1 className="text-5xl md:text-9xl font-bold">
-            CODE FOR
+            TECH THAT
             <br />
-            <em>IMPACT</em>
+            <em>IMPACTS</em>
           </h1>
-          {/* <p className="pl-2 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10 lg:max-w-[50%] ">
-            With a passion for crafting meaningful digital experiences that
-            connect people. With a human-centered approach and collaborative
-            mindset, I turn ideas into impactful solutions. Let&apos;s create
-            something amazing together.
-          </p> */}
+          <p className="pl-2 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10 lg:max-w-[50%] ">
+            Crafting digital experiences that deliver **results**.
+          </p>
           <div className="flex gap-4">
-            <button className="font-bold border-2 border-foreground px-2 py-2 md:px-6 md:py-4 md:text-2xl md:border-4">
-              My Work
+            <button className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button md:px-6 md:py-4 md:text-2xl md:border-4">
+              Explore My Projects
             </button>
-            <button className="font-bold border-2 border-foreground px-2 py-2 md:px-6 md:py-4 md:text-2xl md:border-4">
-              Contact Me
+            <button className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button md:px-6 md:py-4 md:text-2xl md:border-4">
+              Start Your Project
             </button>
           </div>
           <div className="flex justify-center md:justify-end absolute bottom-0 right-0">
@@ -96,6 +92,9 @@ export default function Home() {
           className="flex flex-col gap-16 pt-2 pb-6 px-6 items-center"
         >
           <div className="shadow-custom flex gap-12 items-center flex-wrap justify-center py-8 px-2">
+            <h2 className="text-4xl font-bold basis-full	text-center">
+              About me
+            </h2>
             <div className="avatar">
               <div className="mask mask-circle w-72 md:w-96">
                 <Image
@@ -201,7 +200,7 @@ export default function Home() {
           </article>
         </section>
 
-        <section id="my_work" className="p-6">
+        <section id="my_work" className="p-6 mb-32">
           <h2 className="text-4xl font-bold pb-10">
             Passion Projects with real <em>impact</em>:
           </h2>
@@ -225,20 +224,21 @@ export default function Home() {
                 <div className="pb-3">
                   <h3 className="font-bold text-xl md:text-3xl">SoulCurate</h3>
                   <h4 className="pl-1 text-black text-opacity-60 text-xs md:text-base">
-                    A dating app for people by people
+                    Reclaim your dating life from algorithms
                   </h4>
                 </div>
                 <p className="flex-1 pb-6 pl-1 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10">
-                  Our users are matched up by human matchmakers who understand
+                  Our users are coupled up by human matchmakers who understand
                   the nuances of human connection. We believe in the power of
-                  human touch and the magic of serendipity.
+                  the human touch and the ability to connect people on a deeper
+                  level.
                 </p>
                 <div className="flex gap-2 flex-wrap">
-                  <button className="border-2 border-black p-1 md:px-3 md:py-2 md:text-lg">
-                    View Project
+                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button md:px-3 md:py-2 md:text-lg ">
+                    Learn More
                   </button>
-                  <button className="border-2 border-black p-1 md:px-3 md:py-2 md:text-lg">
-                    View Demo
+                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button md:px-3 md:py-2 md:text-lg">
+                    Explore the App
                   </button>
                 </div>
               </div>
@@ -259,20 +259,20 @@ export default function Home() {
                     Daily 700 Words
                   </h3>
                   <h4 className="pl-1 text-black text-opacity-60 text-xs md:text-base">
-                    Helping you build habits and systems
+                    Writer's block doesn't stand a chance
                   </h4>
                 </div>
                 <p className="flex-1 pl-1 pb-6 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10">
                   Get your daily writing fix and build a habit of consistency.
-                  We overesitmeate what we can do in a day and underestimate
-                  what we can do in a year. Watch your writing grow and your
-                  voice develop.
+                  We overesitmate what we can do in a day and underestimate what
+                  we can do in a year. Watch your writing grow and your voice
+                  develop.
                 </p>
                 <div className="flex gap-2 flex-wrap">
-                  <button className="border-2 border-black p-1 md:px-3 md:py-2 md:text-lg">
+                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button md:px-3 md:py-2 md:text-lg">
                     View Project
                   </button>
-                  <button className="border-2 border-black p-1 md:px-3 md:py-2 md:text-lg">
+                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button md:px-3 md:py-2 md:text-lg">
                     View Demo
                   </button>
                 </div>
@@ -449,16 +449,19 @@ export default function Home() {
           </ul>
         </section>
 
-        <section id="contact_me" className=" p-24">
+        <section
+          id="contact_me"
+          className="flex flex-col items-center p-6 md:p-24 "
+        >
           <h2 className="text-4xl font-bold pb-10 text-center">
             Let&apos;s <em>connect</em> and create something amazing together:
           </h2>
           <form
-            className="flex flex-col gap-6 max-w-[500px] mx-auto"
+            className="flex flex-col gap-6 w-full max-w-[500px] items-center "
             action="https://formsubmit.co/kareem.h.sakr@gmail.com"
             method="POST"
           >
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 w-full">
               <label htmlFor="name">Name</label>
               <input
                 type="text"
@@ -467,7 +470,7 @@ export default function Home() {
                 className="p-2 border-2 border-black"
               />
             </div>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2  w-full">
               <label htmlFor="email">Email</label>
               <input
                 type="email"
@@ -476,7 +479,7 @@ export default function Home() {
                 className="p-2 border-2 border-black"
               />
             </div>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2  w-full">
               <label htmlFor="message">Message</label>
               <textarea
                 id="message"
@@ -484,13 +487,15 @@ export default function Home() {
                 className="p-2 border-2 border-black"
               ></textarea>
             </div>
-            <button className="border-2 border-black p-2 md:px-3 md:py-2 md:text-lg">
+            <button className="border-2 border-black p-2 transition-all duration-300 hover:shadow-button md:px-3 md:py-2 md:text-lg">
               Send Message
             </button>
           </form>
         </section>
       </main>
-      <footer></footer>
+      <footer>
+        <p>&copy; 2024 Kareem Sakr</p>
+      </footer>
     </>
   );
 }
