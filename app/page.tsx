@@ -42,13 +42,13 @@ export default function Home() {
               className={`flex flex-col text-lg font-semibold tracking-[-1px] p-3 gap-2 bg-background shadow-custom 
                 md:text-2xl md:gap-6 md:flex-row md:shadow-none md:bg-transparent md:border-0`}
             >
-              <li className="border-b-2 border-background hover:border-foreground transition-all duration-500 pr-16 md:pr-0 md:translate-x-0">
+              <li className="border-b-2 border-background hover:border-foreground hover:scale-105 transition-all duration-500 pr-16 md:pr-0 md:translate-x-0">
                 <Link href="/#about_me">About Me</Link>
               </li>
-              <li className="border-b-2 border-background hover:border-foreground transition-all duration-500 pr-16 md:pr-0 md:translate-x-0">
+              <li className="border-b-2 border-background hover:border-foreground hover:scale-105 transition-all duration-500 pr-16 md:pr-0 md:translate-x-0">
                 <Link href="/#my_work">My Work</Link>
               </li>
-              <li className="border-b-2 border-background hover:border-foreground transition-all duration-500 pr-16 md:pr-0 md:translate-x-0">
+              <li className="border-b-2 border-background hover:border-foreground hover:scale-105 transition-all duration-500 pr-16 md:pr-0 md:translate-x-0">
                 <Link href="/#contact_me">Get In Touch</Link>
               </li>
             </ul>
@@ -72,10 +72,10 @@ export default function Home() {
             Crafting digital experiences that deliver **results**.
           </p>
           <div className="flex gap-4">
-            <button className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button md:px-6 md:py-4 md:text-2xl md:border-4">
+            <button className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button hover:scale-105  md:px-6 md:py-4 md:text-2xl md:border-4">
               Explore My Projects
             </button>
-            <button className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button md:px-6 md:py-4 md:text-2xl md:border-4">
+            <button className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button hover:scale-105  md:px-6 md:py-4 md:text-2xl md:border-4">
               Start Your Project
             </button>
           </div>
@@ -108,19 +108,17 @@ export default function Home() {
             <div className="md:max-w-[35%]">
               {/* <p className="text-lg leading-8 md:text-2xl md:leading-10 pb-6"> */}
               <p className="pl-2 pb-6 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10">
-                A <span className="text-black">Full-stack developer</span>{" "}
-                crafting complex solutions - from automating{" "}
-                <span className="text-black">nationwide systems </span>
-                to enhancing{" "}
-                <span className="text-black">user journeys for millions</span>.
-                I bridge technical excellence with{" "}
-                <span className="text-black">business needs</span> through clear
-                <span className="text-black"> communication</span> and deep
-                system understanding. Recently returned from SE Asia with fresh
-                perspectives, seeking opportunities to create{" "}
-                <span className="text-black"> meaningful impact </span>
-                through{" "}
-                <span className="text-black"> innovative solutions</span>.
+                I'm a passionate Full-Stack Developer with a proven track record
+                of success in delivering innovative and user-centric digital
+                solutions. Beyond my technical expertise, I'm a strong
+                communicator and collaborator, adept at understanding business
+                needs and translating them into impactful digital experiences.
+                <br />
+                In my free time, I enjoy exploring new technologies,
+                contributing to open-source projects, and mentoring aspiring
+                developers. I'm always eager to learn and grow, and I'm excited
+                to contribute my skills to a challenging and rewarding role or
+                project.
               </p>
               <ul className="flex gap-6 w-full justify-center">
                 <p className="font-bold">Find me on:</p>
@@ -140,7 +138,7 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <article className="flex flex-col gap-10 items-center py-24 md:max-w-[80%]">
+          {/* <article className="flex flex-col gap-10 items-center py-24 md:max-w-[80%]">
             <h2 className="text-4xl font-bold">What I bring to the table:</h2>
             <ul className="flex gap-6 flex-wrap">
               <li className="p-4 flex-1 font-semibold flex flex-col gap-6 shadow-custom min-h-[250px]">
@@ -197,7 +195,360 @@ export default function Home() {
                 </p>
               </li>
             </ul>
-          </article>
+          </article> */}
+        </section>
+        <section id="skills" className="py-20">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                What I Bring to the Table
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                A unique blend of technical expertise, architectural knowledge,
+                and leadership skills to deliver high-impact solutions.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="p-3 bg-blue-100 rounded-lg text-blue-600">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="size-8"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                      />
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold">Technical Expertise</h3>
+                </div>
+
+                <p className="text-gray-600 mb-6">
+                  Full-stack development with modern technologies
+                </p>
+
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-lg mb-2">Frontend</h4>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        React
+                      </span>
+                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        Next.js
+                      </span>
+                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        TypeScript
+                      </span>
+                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        Tailwind CSS
+                      </span>
+                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        Redux
+                      </span>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h4 className="font-semibold text-lg mb-2">Backend</h4>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        Node.js
+                      </span>
+                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        Python
+                      </span>
+                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        PHP/Laravel
+                      </span>
+                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        RESTful APIs
+                      </span>
+                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        GraphQL
+                      </span>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h4 className="font-semibold text-lg mb-2">
+                      Cloud & DevOps
+                    </h4>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        AWS
+                      </span>
+                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        Docker
+                      </span>
+                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        CI/CD
+                      </span>
+                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        Microservices
+                      </span>
+                      <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
+                        Serverless
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="p-3 bg-blue-100 rounded-lg text-blue-600">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="size-8"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                      />
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold">
+                    Best Practices & Architecture
+                  </h3>
+                </div>
+
+                <p className="text-gray-600 mb-6">
+                  Building scalable and maintainable systems
+                </p>
+
+                <ul className="space-y-2">
+                  <li className="flex items-center gap-2">
+                    <svg
+                      className="h-5 w-5 text-green-500"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    <span>Clean Code & Design Patterns</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <svg
+                      className="h-5 w-5 text-green-500"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    <span>Microservices Architecture</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <svg
+                      className="h-5 w-5 text-green-500"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    <span>Test-Driven Development</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <svg
+                      className="h-5 w-5 text-green-500"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    <span>Performance Optimization</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <svg
+                      className="h-5 w-5 text-green-500"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    <span>Security Best Practices</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="p-3 bg-blue-100 rounded-lg text-blue-600">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="size-8"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                      />
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold">
+                    Leadership & Communication
+                  </h3>
+                </div>
+
+                <p className="text-gray-600 mb-6">
+                  Driving team success and stakeholder alignment
+                </p>
+
+                <ul className="space-y-2">
+                  <li className="flex items-center gap-2">
+                    <svg
+                      className="h-5 w-5 text-yellow-500"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                      />
+                    </svg>
+                    <span>Led cross-functional teams of 5-10 developers</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <svg
+                      className="h-5 w-5 text-yellow-500"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                      />
+                    </svg>
+                    <span>Mentored junior developers</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <svg
+                      className="h-5 w-5 text-yellow-500"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                      />
+                    </svg>
+                    <span>Streamlined development processes</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <svg
+                      className="h-5 w-5 text-yellow-500"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                      />
+                    </svg>
+                    <span>Improved team velocity by 40%</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <svg
+                      className="h-5 w-5 text-yellow-500"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                      />
+                    </svg>
+                    <span>Reduced technical debt by 60%</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* <div className="mt-16 text-center">
+              <a
+                href="#projects"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+              >
+                View My Projects
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  />
+                </svg>
+              </a>
+            </div> */}
+          </div>
         </section>
 
         <section id="my_work" className="p-6 mb-32">
@@ -234,10 +585,10 @@ export default function Home() {
                   level.
                 </p>
                 <div className="flex gap-2 flex-wrap">
-                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button md:px-3 md:py-2 md:text-lg ">
+                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button hover:scale-105  md:px-3 md:py-2 md:text-lg ">
                     Learn More
                   </button>
-                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button md:px-3 md:py-2 md:text-lg">
+                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button hover:scale-105  md:px-3 md:py-2 md:text-lg">
                     Explore the App
                   </button>
                 </div>
@@ -269,10 +620,10 @@ export default function Home() {
                   develop.
                 </p>
                 <div className="flex gap-2 flex-wrap">
-                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button md:px-3 md:py-2 md:text-lg">
+                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button hover:scale-105  md:px-3 md:py-2 md:text-lg">
                     View Project
                   </button>
-                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button md:px-3 md:py-2 md:text-lg">
+                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button hover:scale-105  md:px-3 md:py-2 md:text-lg">
                     View Demo
                   </button>
                 </div>
@@ -487,7 +838,7 @@ export default function Home() {
                 className="p-2 border-2 border-black"
               ></textarea>
             </div>
-            <button className="border-2 border-black p-2 transition-all duration-300 hover:shadow-button md:px-3 md:py-2 md:text-lg">
+            <button className="border-2 border-black p-2 transition-all duration-300 hover:shadow-button hover:scale-105  md:px-3 md:py-2 md:text-lg">
               Send Message
             </button>
           </form>
