@@ -6,7 +6,6 @@ import DatingAppPic from "@/public/dating_app.jpg";
 import WritingAppPic from "@/public/writing_app.jpg";
 import Link from "next/link";
 import {
-  CheckCircleIcon,
   ArrowDownIcon,
   Bars3Icon,
   XMarkIcon,
