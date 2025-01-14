@@ -1033,7 +1033,7 @@ export default function Home() {
                       id="message"
                       name="message"
                       required
-                      rows="6"
+                      rows={6}
                       className="w-full px-4 py-3  border-2 border-gray-300 focus:border-slate-500 focus:ring focus:ring-slate-200 transition-colors resize-none"
                       placeholder="Tell me about your project or inquiry..."
                     ></textarea>
