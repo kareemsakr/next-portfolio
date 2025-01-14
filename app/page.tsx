@@ -6,6 +6,7 @@ import DatingAppPic from "@/public/dating_app.jpg";
 import WritingAppPic from "@/public/writing_app.jpg";
 import Link from "next/link";
 import {
+  CheckCircleIcon,
   ArrowDownIcon,
   Bars3Icon,
   XMarkIcon,
@@ -73,8 +74,8 @@ export default function Home() {
           </h1>
 
           <p className="pl-2 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10 lg:max-w-[50%] ">
-            Creating meaningful digital products that improve people's lives.
-            Bringing ideas to life with React&apos; Next.js&apos; and modern web
+            Creating meaningful digital products that improve people&apos;s
+            lives. Bringing ideas to life with React, Next.js, and modern web
             technologies.
           </p>
           <div className="flex gap-4">
@@ -114,17 +115,17 @@ export default function Home() {
             <div className="md:max-w-[35%]">
               {/* <p className="text-lg leading-8 md:text-2xl md:leading-10 pb-6"> */}
               <p className="pl-2 pb-6 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10">
-                I'm a passionate Full-Stack Developer with a proven track record
-                of success in delivering innovative and user-centric digital
-                solutions. Beyond my technical expertise&apos; I'm a strong
-                communicator and collaborator&apos; adept at understanding
+                I&apos;m a passionate Full-Stack Developer with a proven track
+                record of success in delivering innovative and user-centric
+                digital solutions. Beyond my technical expertise, I&apos;m a
+                strong communicator and collaborator, adept at understanding
                 business needs and translating them into impactful digital
                 experiences.
                 <br />
-                In my free time&apos; I enjoy exploring new technologies&apos;
-                contributing to open-source projects&apos; and mentoring
-                aspiring developers. I'm always eager to learn and grow&apos;
-                and I'm excited to contribute my skills to a challenging and
+                In my free time, I enjoy exploring new technologies,
+                contributing to open-source projects, and mentoring aspiring
+                developers. I&apos;m always eager to learn and grow, and
+                I&apos;m excited to contribute my skills to a challenging and
                 rewarding role or project.
               </p>
               <ul className="flex gap-6 w-full justify-center">
@@ -153,9 +154,8 @@ export default function Home() {
                 What I Bring to the Table
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                A unique blend of technical expertise&apos; architectural
-                knowledge&apos; and leadership skills to deliver high-impact
-                solutions.
+                A unique blend of technical expertise, architectural knowledge,
+                and leadership skills to deliver high-impact solutions.
               </p>
             </div>
 
@@ -513,9 +513,9 @@ export default function Home() {
               </span>
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Each project is crafted with a focus on user experience&apos;
-              performance&apos; and business impact. Here are some highlights
-              from my portfolio.
+              Each project is crafted with a focus on user experience,
+              performance, and business impact. Here are some highlights from my
+              portfolio.
             </p>
           </header>
           {/* <p className="text-lg font-semibold">
@@ -555,8 +555,8 @@ export default function Home() {
                 <p className="flex-1 pb-6 pl-1 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10">
                   A dating app that puts human wisdom back into matchmaking. Our
                   community of experienced matchmakers helps create meaningful
-                  connections&apos; resulting in a 45% higher success rate
-                  compared to algorithm-based apps.
+                  connections, resulting in a 45% higher success rate compared
+                  to algorithm-based apps.
                 </p>
                 {/* TODO: fill with real user stats here */}
                 {/* <ul className="space-y-2">
@@ -602,7 +602,7 @@ export default function Home() {
                     Daily 700 Words
                   </h3>
                   <h4 className="pl-1 pb-4 text-black text-opacity-60 text-xs md:text-base">
-                    Write daily&apos; grow steadily
+                    Write daily, grow steadily
                   </h4>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 bg-black/70 text-white text-sm backdrop-blur-sm">
@@ -615,9 +615,9 @@ export default function Home() {
                 </div>
                 <p className="flex-1 pl-1 pb-6 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10">
                   Transform your writing through daily practice. While a single
-                  day's work may feel small&apos; a year of consistency creates
-                  extraordinary results. Develop your craft&apos; find your
-                  voice&apos; and watch your writing evolve.
+                  day&apos;s work may feel small, a year of consistency creates
+                  extraordinary results. Develop your craft, find your voice,
+                  and watch your writing evolve.
                 </p>
                 {/* TODO: fill with real user stats */}
                 {/* <ul className="space-y-2">
@@ -703,9 +703,9 @@ export default function Home() {
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-600 text-lg">
-                        Rebuilt the product discovery experience&apos; leading
-                        to a 15% increase in product findability and reducing
-                        cart abandonment
+                        Rebuilt the product discovery experience, leading to a
+                        15% increase in product findability and reducing cart
+                        abandonment
                       </p>
                     </div>
                   </li>
@@ -730,8 +730,8 @@ export default function Home() {
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-600 text-lg">
-                        Built and optimized critical user-facing
-                        components&apos; improving page load times by 25%
+                        Built and optimized critical user-facing components,
+                        improving page load times by 25%
                       </p>
                     </div>
                   </li>
@@ -924,8 +924,8 @@ export default function Home() {
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-600 text-lg">
-                        Developed interconnected mobile apps&apos; management
-                        tools&apos; and backend systems
+                        Developed interconnected mobile apps, management tools,
+                        and backend systems
                       </p>
                     </div>
                   </li>
@@ -970,14 +970,14 @@ export default function Home() {
                 GET IN TOUCH
               </span>
               <h2 className="text-3xl md:text-5xl font-bold mt-4 mb-6">
-                Let's Create Something
+                Let&apos;s Create Something
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-800 to-papaya-orange">
                   Exceptional
                 </span>
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
                 Whether you have a project in mind or just want to chat about
-                technology&apos; I'm always open to discussing new
+                technology, I&apos;m always open to discussing new
                 opportunities.
               </p>
             </header>
