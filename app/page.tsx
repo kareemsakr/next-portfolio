@@ -62,7 +62,7 @@ export default function Home() {
           <p className="font-bold text-black text-opacity-60 text-xs pl-[2.3] -mb-8 md:pl-2 md:text-base">
             I&apos;M KAREEM, A <em>FULL-STACK DEVELOPER</em>
           </p>
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+          <h1 className="text-4xl md:text-7xl font-bold leading-tight">
             Building
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-900 to-papaya-orange">
               Digital
@@ -86,9 +86,9 @@ export default function Home() {
               Start Your Project
             </button>
           </div>
-          <div className="flex justify-center md:justify-end absolute bottom-0 right-0">
+          <div className="flex justify-center md:justify-end absolute bottom-0 right-4">
             <ArrowDownIcon className="size-12 animate-bounce-slow" />
-            <p className="hidden rotate-90 -translate-x-6 -translate-y-4 md:block">
+            <p className="hidden rotate-90 -translate-x-6 -translate-y-6 md:block">
               SCROLL
             </p>
           </div>
@@ -98,7 +98,7 @@ export default function Home() {
           id="about_me"
           className="flex flex-col gap-16 pt-2 pb-6 px-6 items-center"
         >
-          <div className="shadow-custom flex gap-12 items-center flex-wrap justify-center py-8 px-2">
+          <div className="bg-white shadow-custom flex gap-12 items-center flex-wrap justify-center py-8 px-2">
             <h2 className="text-4xl font-bold basis-full	text-center">
               About me
             </h2>
@@ -171,8 +171,8 @@ export default function Home() {
                     >
                       <path
                         strokeLinecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
                       />
                     </svg>
@@ -263,7 +263,7 @@ export default function Home() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth="2"
                         d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
@@ -288,9 +288,9 @@ export default function Home() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
@@ -304,9 +304,9 @@ export default function Home() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
@@ -320,9 +320,9 @@ export default function Home() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
@@ -336,9 +336,9 @@ export default function Home() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
@@ -352,9 +352,9 @@ export default function Home() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
@@ -374,9 +374,9 @@ export default function Home() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
                       />
                     </svg>
@@ -399,9 +399,9 @@ export default function Home() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                       />
                     </svg>
@@ -415,9 +415,9 @@ export default function Home() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                       />
                     </svg>
@@ -431,9 +431,9 @@ export default function Home() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                       />
                     </svg>
@@ -447,9 +447,9 @@ export default function Home() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                       />
                     </svg>
@@ -463,9 +463,9 @@ export default function Home() {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                       />
                     </svg>
@@ -478,7 +478,7 @@ export default function Home() {
             {/* <div className="mt-16 text-center">
               <a
                 href="#projects"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-slate-600 text-white rounded-lg font-semibold hover:bg-slate-700 transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-slate-600 text-white  font-semibold hover:bg-slate-700 transition-colors"
               >
                 View My Projects
                 <svg
@@ -489,9 +489,9 @@ export default function Home() {
                   stroke="currentColor"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M14 5l7 7m0 0l-7 7m7-7H3"
                   />
                 </svg>
@@ -500,7 +500,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="my_work" className="p-6 mb-32">
+        <section id="my_work" className="p-6 mb-32 container mx-auto">
           <header className="max-w-2xl mb-20">
             <span className="bg-slate-100 text-slate-600 py-2 px-4 text-sm font-semibold tracking-wide">
               FEATURED PROJECTS
@@ -522,7 +522,7 @@ export default function Home() {
             and joy to people&apos;s lives:
           </p> */}
           <ul className="flex gap-24 flex-wrap">
-            <li className="flex-1 font-semibold flex flex-col gap-4 shadow-custom min-w-[150px] md:flex-row md:min-w-full md:max-h-[525px]">
+            <li className="flex-1 font-semibold flex flex-col gap-4 shadow-lg hover:shadow-xl transition-all duration-300  min-w-[150px] md:flex-row md:min-w-full md:max-h-[525px]">
               <div className="md:max-w-[40%] overflow-hidden">
                 <Image
                   width={undefined}
@@ -533,13 +533,13 @@ export default function Home() {
                 />
               </div>
 
-              <div className="flex flex-col md:gap-2 px-3 py-6 md:pb-10">
+              <div className="bg-white flex flex-col md:gap-2 px-3 py-6 md:pb-10">
                 <div className="pb-3">
                   <h3 className="font-bold text-xl md:text-3xl">SoulCurate</h3>
                   <h4 className="pl-1 pb-4 text-black text-opacity-60 text-xs md:text-base">
                     Reclaim your dating life from algorithms
                   </h4>
-                  <div className="flex gap-2">
+                  <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 bg-black/70 text-white text-sm backdrop-blur-sm">
                       NEXT.JS
                     </span>
@@ -585,7 +585,7 @@ export default function Home() {
                 </div>
               </div>
             </li>
-            <li className="flex-1 font-semibold flex flex-col gap-4 shadow-custom min-w-[150px] md:flex-row-reverse md:min-w-full md:max-h-[520px]">
+            <li className="flex-1 font-semibold flex flex-col gap-4 min-w-[150px] shadow-lg hover:shadow-xl transition-all duration-300 md:flex-row-reverse md:min-w-full md:max-h-[520px]">
               <div className="md:max-w-[40%] overflow-hidden">
                 <Image
                   width={undefined}
@@ -595,7 +595,7 @@ export default function Home() {
                   className="w-full"
                 />
               </div>
-              <div className="flex flex-col md:gap-2 px-3 py-6 md:pb-10">
+              <div className="bg-white flex flex-col  md:gap-2 px-3 py-6 md:pb-10">
                 <div className="pb-3">
                   <h3 className="font-bold text-xl md:text-3xl">
                     Daily 700 Words
@@ -603,7 +603,7 @@ export default function Home() {
                   <h4 className="pl-1 pb-4 text-black text-opacity-60 text-xs md:text-base">
                     Write daily, grow steadily
                   </h4>
-                  <div className="flex gap-2">
+                  <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 bg-black/70 text-white text-sm backdrop-blur-sm">
                       Laravel/PHP
                     </span>
@@ -649,216 +649,445 @@ export default function Home() {
           </ul>
         </section>
 
-        <section id="career_summary" className="p-6">
-          <h2 className="text-4xl font-bold pb-10">
-            Career Accomplishments with major <em>Impact</em>:
-          </h2>
-          <ul>
-            <li className="shadow-custom p-6 mb-6">
-              <h3 className="font-bold text-xl md:text-3xl">
-                Senior Front-end Developer
-              </h3>
-              <h4 className="pl-1 text-black text-opacity-60 text-xs md:text-base">
-                BBY Canada, Vancouver, Canada
-              </h4>
-              <div className="flex-1 pl-1 pt-6 pb-6 font-bold text-black text-opacity-60 text-md leading-8 md:text-xl md:leading-10">
-                <p className="pb-6">
-                  <span className="font-extrabold text-black">
-                    Enhancing User Experience:
-                  </span>{" "}
-                  Spearheaded the redesign of key e-commerce components,
-                  improving page load times by 25% and increasing customer
-                  engagement metrics, such as time on site and conversion rates.
-                </p>
-                <p className="pb-6">
-                  <span className="font-extrabold text-black">
-                    Leading Feature Development:
-                  </span>{" "}
-                  Led the development of dynamic, customer-facing features, such
-                  as an advanced product filtering system, which resulted in a
-                  15% improvement in user search satisfaction scores.
-                </p>
-                <p className="pb-6">
-                  <span className="font-extrabold text-black">
-                    Cross-Team Collaboration:
-                  </span>{" "}
-                  Collaborated with UX designers, back-end developers, and
-                  product managers to deliver seamless, responsive web solutions
-                  that adhered to brand guidelines and met business goals.
-                </p>
-                <p className="pb-6">
-                  <span className="font-extrabold text-black">
-                    Codebase Optimization:
-                  </span>{" "}
-                  Refactored legacy code to modern frameworks (e.g., React.js),
-                  reducing technical debt and accelerating the onboarding
-                  process for new developers by creating detailed documentation
-                  and reusable components.
-                </p>
-                <p className="pb-6">
-                  <span className="font-extrabold text-black">
-                    Mentoring and Leadership:
-                  </span>{" "}
-                  Mentored junior developers, conducted code reviews, and
-                  facilitated knowledge-sharing sessions, fostering a
-                  high-performing team and ensuring code quality and consistency
-                  across projects.
-                </p>
-              </div>
-            </li>
+        <section id="career_summary" className="p-6 container mx-auto">
+          <header className="max-w-2xl mb-20">
+            <span className="bg-slate-100 text-slate-600 py-2 px-4 text-sm font-semibold tracking-wide">
+              CAREER HIGHLIGHTS
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
+              Notable Impact &amp;
+              <span className="text-transparent bg-clip-text bg-gradient-to-r to-orange-900 from-papaya-orange">
+                Key Achievements
+              </span>
+            </h2>
+            <p className="text-xl text-gray-600 leading-relaxed">
+              A track record of building products that users love and delivering
+              solutions that make a difference.
+            </p>
+          </header>
 
-            <li className="shadow-custom p-6 mb-6">
-              <h3 className="font-bold text-xl md:text-3xl">
-                Tech. Lead at Y-Combinator Startup
-              </h3>
-              <h4 className="pl-1 text-black text-opacity-60 text-xs md:text-base">
-                LSK Technologies Inc. (Now part of Nicoya) , Kitchener, Canada
-              </h4>
+          <div className="space-y-12">
+            <article className="bg-white  p-8 md:p-12 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+              <header className="border-b border-gray-100 pb-8 mb-8">
+                <h3 className="text-2xl md:text-3xl font-bold">
+                  Senior Frontend Developer
+                </h3>
+                <p className="text-lg text-gray-500 mt-2">BBY Canada</p>
+              </header>
 
-              <div className="flex-1 pl-1 pt-6 pb-6 font-bold text-black text-opacity-60 text-md leading-8 md:text-xl md:leading-10">
-                <p className="pb-6">
-                  <span className="font-extrabod text-black">
-                    Architecting a Decentralized System:
-                  </span>{" "}
-                  Designed and implemented a robust decentralized testing
-                  platform leveraging AWS serverless architecture, ensuring
-                  scalability and real-time processing for thousands of
-                  simultaneous tests.
+              <div className="space-y-8">
+                <p className="text-xl text-gray-800">
+                  Led the development of high-impact e-commerce features that
+                  directly improved user experience
                 </p>
-                <p className="pb-6">
-                  <span className="font-extrabold text-black">
-                    Developing an End-to-End Solution:
-                  </span>{" "}
-                  Delivered a fully operational desktop application that
-                  integrated computer vision for test result analysis,
-                  streamlining the diagnostic process and reducing human error.
-                </p>
-                <p className="pb-6">
-                  <span className="font-extrabold text-black">
-                    Ensuring Regulatory Compliance:
-                  </span>{" "}
-                  Navigated complex medical and software regulations, working
-                  closely with stakeholders to ensure the platform met stringent
-                  compliance standards for deployment in medical environments.
-                </p>
-                <p className="pb-6">
-                  <span className="font-extrabold text-black">
-                    Optimizing Performance and Cost:
-                  </span>{" "}
-                  Implemented serverless computing solutions that minimized
-                  operational costs while maintaining high availability and
-                  efficiency under heavy usage.
-                </p>
-                <p className="pb-6">
-                  <span className="font-extrabold text-black">
-                    Leading a Cross-Functional Team:
-                  </span>{" "}
-                  Guided a multidisciplinary team of engineers, data scientists,
-                  and QA specialists, fostering collaboration and delivering the
-                  project ahead of schedule despite a fast-paced, high-stakes
-                  environment.
-                </p>
-              </div>
-            </li>
 
-            <li className="shadow-custom p-6 mb-6">
-              <h3 className="font-bold text-xl md:text-3xl">
-                Software Engineer
-              </h3>
-              <h4 className="pl-1 text-black text-opacity-60 text-xs md:text-base">
-                DIYAR United Company, UAE
-              </h4>
-              <div className="flex-1 pl-1 pt-6 pb-6 font-bold text-black text-opacity-60 text-md leading-8 md:text-xl md:leading-10">
-                <p className="pb-6">
-                  <span className="font-extrabold text-black">
-                    Designing a Nationwide Automation System:
-                  </span>
-                  Architected and developed a comprehensive system to automate
-                  operations at gas stations, including POS systems, payment
-                  processing, and inventory tracking, allowing millions of users
-                  daily to have a zero contact experience at 400 gas stations in
-                  the UAE.
-                </p>
-                <p className="pb-6">
-                  <span className="font-extrabold text-black">
-                    Scaling for International Expansion:
-                  </span>
-                  Played a pivotal role in refining the platform, which was
-                  later sold as a product internationally, showcasing the
-                  scalability and adaptability of the solution.
-                </p>
-                <p className="pb-6">
-                  <span className="font-extrabold text-black">
-                    Creating a Suite of Applications:
-                  </span>
-                  Delivered multiple interconnected applications, including
-                  mobile apps for customers, management tools for station
-                  operators, and backend systems for real-time data processing
-                  and analytics.
-                </p>
-                <p className="pb-6">
-                  <span className="font-extrabold text-black">
-                    Enhancing Reliability and Uptime:
-                  </span>
-                  Implemented robust monitoring and failover systems, achieving
-                  over 99.99% uptime , which significantly reduced operational
-                  disruptions for gas stations.
-                </p>
-                <p className="pb-6">
-                  <span className="font-extrabold text-black">
-                    Driving Cost Savings Through Automation:
-                  </span>
-                  Streamlined manual processes, reducing operational costs for
-                  gas stations by improving efficiency, reducing human errors,
-                  and enabling predictive maintenance.
-                </p>
+                <ul className="space-y-6">
+                  <li className="flex gap-4">
+                    <div className="flex-shrink-0">
+                      <span className="flex items-center justify-center w-12 h-12  bg-slate-100 text-slate-600">
+                        <svg
+                          className="w-6 h-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-gray-600 text-lg">
+                        Rebuilt the product discovery experience, leading to a
+                        15% increase in product findability and reducing cart
+                        abandonment
+                      </p>
+                    </div>
+                  </li>
+
+                  <li className="flex gap-4">
+                    <div className="flex-shrink-0">
+                      <span className="flex items-center justify-center w-12 h-12  bg-purple-100 text-purple-600">
+                        <svg
+                          className="w-6 h-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M13 10V3L4 14h7v7l9-11h-7z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-gray-600 text-lg">
+                        Built and optimized critical user-facing components,
+                        improving page load times by 25%
+                      </p>
+                    </div>
+                  </li>
+
+                  <li className="flex gap-4">
+                    <div className="flex-shrink-0">
+                      <span className="flex items-center justify-center w-12 h-12  bg-green-100 text-green-600">
+                        <svg
+                          className="w-6 h-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-gray-600 text-lg">
+                        Mentored junior developers while maintaining high code
+                        quality standards
+                      </p>
+                    </div>
+                  </li>
+                </ul>
               </div>
-            </li>
-          </ul>
+            </article>
+
+            <article className="bg-white  p-8 md:p-12 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+              <header className="border-b border-gray-100 pb-8 mb-8">
+                <h3 className="text-2xl md:text-3xl font-bold">Tech Lead</h3>
+                <p className="text-lg text-gray-500 mt-2">
+                  LSK Technologies (Y-Combinator Startup)
+                </p>
+              </header>
+
+              <div className="space-y-8">
+                <p className="text-xl text-gray-800">
+                  Architected and delivered a decentralized medical testing
+                  platform from concept to market
+                </p>
+
+                <ul className="space-y-6">
+                  <li className="flex gap-4">
+                    <div className="flex-shrink-0">
+                      <span className="flex items-center justify-center w-12 h-12  bg-indigo-100 text-indigo-600">
+                        <svg
+                          className="w-6 h-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-gray-600 text-lg">
+                        Designed a scalable system handling thousands of
+                        simultaneous tests
+                      </p>
+                    </div>
+                  </li>
+
+                  <li className="flex gap-4">
+                    <div className="flex-shrink-0">
+                      <span className="flex items-center justify-center w-12 h-12  bg-yellow-100 text-yellow-600">
+                        <svg
+                          className="w-6 h-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-gray-600 text-lg">
+                        Created an intuitive desktop application integrating
+                        computer vision for test analysis
+                      </p>
+                    </div>
+                  </li>
+
+                  <li className="flex gap-4">
+                    <div className="flex-shrink-0">
+                      <span className="flex items-center justify-center w-12 h-12  bg-red-100 text-red-600">
+                        <svg
+                          className="w-6 h-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-gray-600 text-lg">
+                        Led development through rapid iterations while
+                        maintaining medical compliance standards
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article className="bg-white  p-8 md:p-12 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+              <header className="border-b border-gray-100 pb-8 mb-8">
+                <h3 className="text-2xl md:text-3xl font-bold">
+                  Software Engineer
+                </h3>
+                <p className="text-lg text-gray-500 mt-2">
+                  DIYAR United Company
+                </p>
+              </header>
+
+              <div className="space-y-8">
+                <p className="text-xl text-gray-800">
+                  Built a pioneering automation system that transformed gas
+                  station operations
+                </p>
+
+                <ul className="space-y-6">
+                  <li className="flex gap-4">
+                    <div className="flex-shrink-0">
+                      <span className="flex items-center justify-center w-12 h-12  bg-emerald-100 text-emerald-600">
+                        <svg
+                          className="w-6 h-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-gray-600 text-lg">
+                        Created a comprehensive system powering 400+ locations
+                        with zero-contact experience
+                      </p>
+                    </div>
+                  </li>
+
+                  <li className="flex gap-4">
+                    <div className="flex-shrink-0">
+                      <span className="flex items-center justify-center w-12 h-12  bg-pink-100 text-pink-600">
+                        <svg
+                          className="w-6 h-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-gray-600 text-lg">
+                        Developed interconnected mobile apps, management tools,
+                        and backend systems
+                      </p>
+                    </div>
+                  </li>
+
+                  <li className="flex gap-4">
+                    <div className="flex-shrink-0">
+                      <span className="flex items-center justify-center w-12 h-12  bg-orange-100 text-orange-600">
+                        <svg
+                          className="w-6 h-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-gray-600 text-lg">
+                        Built a platform robust enough to be sold
+                        internationally as a product
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
         </section>
-
         <section
           id="contact_me"
-          className="flex flex-col items-center p-6 md:p-24 "
+          className="py-24 bg-gradient-to-b from-background to-white"
         >
-          <h2 className="text-4xl font-bold pb-10 text-center">
-            Let&apos;s <em>connect</em> and create something amazing together:
-          </h2>
-          <form
-            className="flex flex-col gap-6 w-full max-w-[500px] items-center "
-            action="https://formsubmit.co/kareem.h.sakr@gmail.com"
-            method="POST"
-          >
-            <div className="flex flex-col gap-2 w-full">
-              <label htmlFor="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                className="p-2 border-2 border-black"
-              />
+          <div className="container mx-auto px-6">
+            <header className="max-w-2xl mx-auto text-center mb-16">
+              <span className="bg-slate-100 text-slate-600 py-2 px-4  text-sm font-semibold tracking-wide">
+                GET IN TOUCH
+              </span>
+              <h2 className="text-3xl md:text-5xl font-bold mt-4 mb-6">
+                Let's Create Something
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-800 to-papaya-orange">
+                  Exceptional
+                </span>
+              </h2>
+              <p className="text-xl text-gray-600 leading-relaxed">
+                Whether you have a project in mind or just want to chat about
+                technology, I'm always open to discussing new opportunities.
+              </p>
+            </header>
+
+            <div className="max-w-xl mx-auto">
+              <form
+                action="https://formsubmit.co/kareem.h.sakr@gmail.com"
+                method="POST"
+                className="space-y-8"
+              >
+                <div className="space-y-6">
+                  <div>
+                    <label
+                      htmlFor="name"
+                      className="block text-lg font-medium text-gray-700 mb-2"
+                    >
+                      Name
+                    </label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      required
+                      className="w-full px-4 py-3  border-2 border-gray-300 focus:border-slate-500 focus:ring focus:ring-slate-200 transition-colors"
+                      placeholder="Your name"
+                    />
+                  </div>
+
+                  <div>
+                    <label
+                      htmlFor="email"
+                      className="block text-lg font-medium text-gray-700 mb-2"
+                    >
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      required
+                      className="w-full px-4 py-3  border-2 border-gray-300 focus:border-slate-500 focus:ring focus:ring-slate-200 transition-colors"
+                      placeholder="your@email.com"
+                    />
+                  </div>
+
+                  <div>
+                    <label
+                      htmlFor="message"
+                      className="block text-lg font-medium text-gray-700 mb-2"
+                    >
+                      Message
+                    </label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      required
+                      rows="6"
+                      className="w-full px-4 py-3  border-2 border-gray-300 focus:border-slate-500 focus:ring focus:ring-slate-200 transition-colors resize-none"
+                      placeholder="Tell me about your project or inquiry..."
+                    ></textarea>
+                  </div>
+                </div>
+
+                <button
+                  type="submit"
+                  className="w-full py-4 px-8 text-lg font-semibold text-white bg-black  hover:bg-slate-700 focus:outline-none focus:ring-4 focus:ring-slate-200 transition-colors duration-300"
+                >
+                  Send Message
+                </button>
+              </form>
+
+              <div className="mt-12 pt-12 border-t border-gray-200">
+                <div className="text-center">
+                  <p className="text-lg font-medium text-gray-700 mb-4">
+                    Prefer to connect professionally?
+                  </p>
+                  <div className="flex justify-center gap-6">
+                    <a
+                      href="https://www.linkedin.com/in/yourprofile"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-3 text-gray-600 hover:text-slate-600 transition-colors"
+                      aria-label="LinkedIn Profile"
+                    >
+                      <svg
+                        className="w-8 h-8"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                      </svg>
+                    </a>
+                    <a
+                      href="https://github.com/yourusername"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-3 text-gray-600 hover:text-gray-900 transition-colors"
+                      aria-label="GitHub Profile"
+                    >
+                      <svg
+                        className="w-8 h-8"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="flex flex-col gap-2  w-full">
-              <label htmlFor="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className="p-2 border-2 border-black"
-              />
-            </div>
-            <div className="flex flex-col gap-2  w-full">
-              <label htmlFor="message">Message</label>
-              <textarea
-                id="message"
-                name="message"
-                className="p-2 border-2 border-black"
-              ></textarea>
-            </div>
-            <button className="border-2 border-black p-2 transition-all duration-300 hover:shadow-button   md:px-3 md:py-2 md:text-lg">
-              Send Message
-            </button>
-          </form>
+          </div>
         </section>
       </main>
       <footer>
