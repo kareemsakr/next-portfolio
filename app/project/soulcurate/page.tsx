@@ -4,7 +4,7 @@ export default function SoulCurateCaseStudy() {
   const soulCurate = {
     title: "SoulCurate",
     subtitle: "Humanizing Digital Dating",
-    techStack: ["REACT NATIVE", "AWS", "NODE.JS", "FIREBASE"],
+    techStack: ["REACT", "NEXT.JS", "PostgreSQL", "Vercel", "FIREBASE"],
     overview:
       "SoulCurate is reimagining online dating by putting human wisdom back into matchmaking. Moving away from algorithmic matches, the platform empowers experienced matchmakers to create meaningful connections, resulting in a 45% higher success rate compared to traditional dating apps.",
     challenges: [
