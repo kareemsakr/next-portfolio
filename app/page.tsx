@@ -576,9 +576,11 @@ export default function Home() {
                   </li>
                 </ul> */}
                 <div className="flex gap-2 flex-wrap">
-                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button   md:px-3 md:py-2 md:text-lg ">
-                    View Case Study
-                  </button>
+                  <Link href={"/project/soulcurate"}>
+                    <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button   md:px-3 md:py-2 md:text-lg ">
+                      View Case Study
+                    </button>
+                  </Link>
                   <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button   md:px-3 md:py-2 md:text-lg">
                     Explore the App
                   </button>
@@ -637,9 +639,11 @@ export default function Home() {
                   </li>
                 </ul> */}
                 <div className="flex gap-2 flex-wrap">
-                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button   md:px-3 md:py-2 md:text-lg">
-                    View Case Study
-                  </button>
+                  <Link href={"/project/700words"}>
+                    <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button   md:px-3 md:py-2 md:text-lg">
+                      View Case Study
+                    </button>
+                  </Link>
                   <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button   md:px-3 md:py-2 md:text-lg">
                     Explore The App
                   </button>
@@ -677,8 +681,8 @@ export default function Home() {
 
               <div className="space-y-8">
                 <p className="text-xl text-gray-800">
-                  Led the development of high-impact e-commerce features that
-                  directly improved user experience
+                  Modernized e-commerce experiences and internal tools for
+                  Canada's largest electronics retailer
                 </p>
 
                 <ul className="space-y-6">
@@ -702,9 +706,10 @@ export default function Home() {
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-600 text-lg">
-                        Rebuilt the product discovery experience, leading to a
-                        15% increase in product findability and reducing cart
-                        abandonment
+                        Built a dynamic category navigation system enabling
+                        product teams to customize menu structures through CMS,
+                        eliminating frontend development bottlenecks and
+                        accelerating A/B testing of category layouts.
                       </p>
                     </div>
                   </li>
@@ -729,8 +734,11 @@ export default function Home() {
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-600 text-lg">
-                        Built and optimized critical user-facing components,
-                        improving page load times by 25%
+                        Led development of a greenfield store returns management
+                        system, replacing legacy software with an intuitive
+                        wizard-driven interface that enables store clerks to
+                        process returns, verify eligibility, and manage customer
+                        data.
                       </p>
                     </div>
                   </li>
@@ -755,8 +763,10 @@ export default function Home() {
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-600 text-lg">
-                        Mentored junior developers while maintaining high code
-                        quality standards
+                        Mentored junior developers, conducted code reviews, and
+                        facilitated knowledge-sharing sessions, fostering a
+                        high-performing team and ensuring code quality and
+                        consistency across projects.
                       </p>
                     </div>
                   </li>
@@ -774,8 +784,8 @@ export default function Home() {
 
               <div className="space-y-8">
                 <p className="text-xl text-gray-800">
-                  Architected and delivered a decentralized medical testing
-                  platform from concept to market
+                  Transformed a prototype medical diagnostics platform into a
+                  production-ready system with clinical-grade reliability
                 </p>
 
                 <ul className="space-y-6">
@@ -799,8 +809,10 @@ export default function Home() {
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-600 text-lg">
-                        Designed a scalable system handling thousands of
-                        simultaneous tests
+                        Completely rewrote and modernized a medical device
+                        application from Python/Qt to TypeScript/React (Atom),
+                        achieving 90% test coverage and comprehensive
+                        documentation
                       </p>
                     </div>
                   </li>
@@ -825,8 +837,9 @@ export default function Home() {
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-600 text-lg">
-                        Created an intuitive desktop application integrating
-                        computer vision for test analysis
+                        Architected a distributed system separating UI, hardware
+                        interfaces, and analysis into discrete services,
+                        improving reliability and maintainability
                       </p>
                     </div>
                   </li>
@@ -851,8 +864,10 @@ export default function Home() {
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-600 text-lg">
-                        Led development through rapid iterations while
-                        maintaining medical compliance standards
+                        Established software development lifecycle processes
+                        including issue tracking, version control standards, and
+                        quality assurance procedures aligned with medical
+                        compliance requirements
                       </p>
                     </div>
                   </li>
@@ -872,8 +887,8 @@ export default function Home() {
 
               <div className="space-y-8">
                 <p className="text-xl text-gray-800">
-                  Built a pioneering automation system that transformed gas
-                  station operations
+                  Architected and delivered a nationwide contactless payment
+                  system revolutionizing fuel station operations
                 </p>
 
                 <ul className="space-y-6">
@@ -897,8 +912,9 @@ export default function Home() {
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-600 text-lg">
-                        Created a comprehensive system powering 400+ locations
-                        with zero-contact experience
+                        Led the development for a contactless fuel payment
+                        system deployed across 400+ stations, integrating RFID
+                        technology with real-time payment processing
                       </p>
                     </div>
                   </li>
@@ -923,8 +939,10 @@ export default function Home() {
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-600 text-lg">
-                        Developed interconnected mobile apps, management tools,
-                        and backend systems
+                        Architected and developed comprehensive system including
+                        customer mobile app for account management and payments,
+                        employee management portal, and station clerk desktop
+                        applications
                       </p>
                     </div>
                   </li>
@@ -949,8 +967,9 @@ export default function Home() {
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-600 text-lg">
-                        Built a platform robust enough to be sold
-                        internationally as a product
+                        Developed internal management platform enabling system
+                        configuration, reporting, and monitoring across the
+                        station network
                       </p>
                     </div>
                   </li>
@@ -1042,7 +1061,7 @@ export default function Home() {
 
                 <button
                   type="submit"
-                  className="w-full py-4 px-8 text-lg font-semibold text-white bg-black  hover:bg-slate-700 focus:outline-none focus:ring-4 focus:ring-slate-200 transition-colors duration-300"
+                  className="w-full py-4 px-8 text-lg font-semibold text-white bg-black  hover:shadow-custom focus:outline-none focus:ring-4 focus:ring-slate-200 transition-all duration-300"
                 >
                   Send Message
                 </button>
