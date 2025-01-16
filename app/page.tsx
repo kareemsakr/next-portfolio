@@ -682,7 +682,7 @@ export default function Home() {
               <div className="space-y-8">
                 <p className="text-xl text-gray-800">
                   Modernized e-commerce experiences and internal tools for
-                  Canada's largest electronics retailer
+                  Canada&apos;s largest electronics retailer
                 </p>
 
                 <ul className="space-y-6">
