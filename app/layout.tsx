@@ -20,9 +20,10 @@ export const metadata: Metadata = {
     title: "Kareem Sakr | Senior Full-Stack Developer",
     description:
       "Senior Full-Stack Developer specializing in React, Next.js, and cloud technologies. Building impactful digital solutions with a focus on performance and user experience.",
+    url: "https://kareemsakr.com",
     images: [
       {
-        url: "/portfolio_thumbnail.png",
+        url: "https://kareemsakr.com/portfolio_thumbnail.png",
         width: 1200,
         height: 630,
         alt: "Portfolio Thumbnail",
