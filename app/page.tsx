@@ -59,37 +59,40 @@ export default function Home() {
           className="min-h-[calc(100vh-50px)] flex flex-col justify-center gap-6 p-6"
         >
           <p className="font-bold text-black text-opacity-60 text-xs pl-[2.3] -mb-8 md:pl-2 md:text-base">
-            I&apos;M KAREEM, A <em>FULL-STACK DEVELOPER</em>
+            I&apos;M KAREEM, A <em>TECHNICAL LEADER & BUILDER</em>
           </p>
           <h1 className="text-4xl md:text-7xl font-bold leading-tight">
             Building
+            <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-900 to-papaya-orange">
-              Digital
-              <br />
               Solutions
             </span>
             That
-            <br /> Matter
+            <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-papaya-orange to-orange-900 ">
+              Transform
+            </span>
+            Lives
           </h1>
 
           <p className="pl-2 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10 lg:max-w-[50%] ">
-            Creating meaningful digital products that improve people&apos;s
-            lives. Bringing ideas to life with React, Next.js, and modern web
-            technologies.
+            Building impactful products through technology and human-centered
+            design. Leading teams to deliver innovative solutions that create
+            real-world change.
           </p>
           <div className="flex gap-4">
-            <a
+            <Link
               href="/#my_work"
               className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button   md:px-6 md:py-4 md:text-2xl md:border-4"
             >
               Explore My Projects
-            </a>
-            <a
+            </Link>
+            <Link
               href="/#contact_me"
               className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button   md:px-6 md:py-4 md:text-2xl md:border-4"
             >
               Start Your Project
-            </a>
+            </Link>
           </div>
           <div className="flex justify-center md:justify-end absolute bottom-0 right-4">
             <ArrowDownIcon className="size-12 animate-bounce-slow" />
@@ -120,18 +123,13 @@ export default function Home() {
             <div className="md:max-w-[35%]">
               {/* <p className="text-lg leading-8 md:text-2xl md:leading-10 pb-6"> */}
               <p className="pl-2 pb-6 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10">
-                I&apos;m a passionate Full-Stack Developer with a proven track
-                record of success in delivering innovative and user-centric
-                digital solutions. Beyond my technical expertise, I&apos;m a
-                strong communicator and collaborator, adept at understanding
-                business needs and translating them into impactful digital
-                experiences.
-                <br />
-                In my free time, I enjoy exploring new technologies,
-                contributing to open-source projects, and mentoring aspiring
-                developers. I&apos;m always eager to learn and grow, and
-                I&apos;m excited to contribute my skills to a challenging and
-                rewarding role or project.
+                I'm a technical leader and developer with 8+ years of experience
+                creating solutions across healthcare, e-commerce, and system
+                automation. I architect systems and build products that solve
+                meaningful problems, while leading teams to deliver impactful
+                solutions. I combine technical expertise with a passion for
+                human-centered design. I'm dedicated to building great products,
+                mentoring others, and creating technology that improves lives.
               </p>
               <ul className="flex gap-6 w-full justify-center">
                 <p className="font-bold">Find me on:</p>
