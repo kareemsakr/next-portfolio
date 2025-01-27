@@ -123,13 +123,14 @@ export default function Home() {
             <div className="md:max-w-[35%]">
               {/* <p className="text-lg leading-8 md:text-2xl md:leading-10 pb-6"> */}
               <p className="pl-2 pb-6 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10">
-                I'm a technical leader and developer with 8+ years of experience
-                creating solutions across healthcare, e-commerce, and system
-                automation. I architect systems and build products that solve
-                meaningful problems, while leading teams to deliver impactful
-                solutions. I combine technical expertise with a passion for
-                human-centered design. I'm dedicated to building great products,
-                mentoring others, and creating technology that improves lives.
+                I&apos;m a technical leader and developer with 8+ years of
+                experience creating solutions across healthcare, e-commerce, and
+                system automation. I architect systems and build products that
+                solve meaningful problems, while leading teams to deliver
+                impactful solutions. I combine technical expertise with a
+                passion for human-centered design. I&apos;m dedicated to
+                building great products, mentoring others, and creating
+                technology that improves lives.
               </p>
               <ul className="flex gap-6 w-full justify-center">
                 <p className="font-bold">Find me on:</p>
