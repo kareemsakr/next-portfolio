@@ -78,12 +78,18 @@ export default function Home() {
             technologies.
           </p>
           <div className="flex gap-4">
-            <button className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button   md:px-6 md:py-4 md:text-2xl md:border-4">
+            <a
+              href="/#my_work"
+              className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button   md:px-6 md:py-4 md:text-2xl md:border-4"
+            >
               Explore My Projects
-            </button>
-            <button className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button   md:px-6 md:py-4 md:text-2xl md:border-4">
+            </a>
+            <a
+              href="/#contact_me"
+              className="font-bold border-2 border-foreground px-2 py-2 transition-all duration-300 hover:shadow-button   md:px-6 md:py-4 md:text-2xl md:border-4"
+            >
               Start Your Project
-            </button>
+            </a>
           </div>
           <div className="flex justify-center md:justify-end absolute bottom-0 right-4">
             <ArrowDownIcon className="size-12 animate-bounce-slow" />
@@ -405,7 +411,7 @@ export default function Home() {
                         d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                       />
                     </svg>
-                    <span>Led cross-functional teams of 5-10 developers</span>
+                    <span>Led cross-functional teams of over 5 developers</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <svg
@@ -581,9 +587,14 @@ export default function Home() {
                       View Case Study
                     </button>
                   </Link>
-                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button   md:px-3 md:py-2 md:text-lg">
-                    Explore the App
-                  </button>
+                  <Link
+                    href={"https://dating-app-sage.vercel.app/"}
+                    target="_blank"
+                  >
+                    <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button   md:px-3 md:py-2 md:text-lg">
+                      Explore the App
+                    </button>
+                  </Link>
                 </div>
               </div>
             </li>
@@ -644,9 +655,11 @@ export default function Home() {
                       View Case Study
                     </button>
                   </Link>
-                  <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button   md:px-3 md:py-2 md:text-lg">
-                    Explore The App
-                  </button>
+                  <div className="tooltip" data-tip="Coming soon...">
+                    <button className="border-2 border-black p-1 transition-all duration-300 hover:shadow-button   md:px-3 md:py-2 md:text-lg">
+                      Explore The App
+                    </button>
+                  </div>
                 </div>
               </div>
             </li>
@@ -978,11 +991,8 @@ export default function Home() {
             </article>
           </div>
         </section>
-        <section
-          id="contact_me"
-          className="py-24 bg-gradient-to-b from-background to-white"
-        >
-          <div className="container mx-auto px-6">
+        <section className="py-24 bg-gradient-to-b from-background to-white">
+          <div id="contact_me" className="container mx-auto px-6">
             <header className="max-w-2xl mx-auto text-center mb-16">
               <span className="bg-slate-100 text-slate-600 py-2 px-4  text-sm font-semibold tracking-wide">
                 GET IN TOUCH
