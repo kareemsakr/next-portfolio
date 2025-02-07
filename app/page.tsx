@@ -70,9 +70,8 @@ export default function Home() {
             That
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-papaya-orange to-orange-900 ">
-              Transform
+              Matter
             </span>
-            Lives
           </h1>
 
           <p className="pl-2 font-bold text-black text-opacity-60 text-md leading-8 md:text-2xl md:leading-10 lg:max-w-[50%] ">
