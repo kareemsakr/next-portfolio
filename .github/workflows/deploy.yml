@@ -1,45 +1,95 @@
-name: Deploy to GitHub Pages
+# .github/workflows/deploy-pages.yml
 
+name: Deploy Static Site to GitHub Pages
+
+# Controls when the workflow will run
 on:
+  # Triggers the workflow on push events but only for the main branch
   push:
-    branches: [main] # Trigger deployment on push to main branch
-  workflow_dispatch: # Allow manual deployment
+    branches: [main]
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# These are essential for the deploy-pages action
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: read # Needed to checkout the code
+  pages: write # Needed to deploy to GitHub Pages
+  id-token: write # Needed for OIDC token authentication by deploy-pages
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Note: Using 'true' for cancel-in-progress is also common, choose based on your preference.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false # Or true if you prefer to cancel ongoing deployments on new pushes
 
 jobs:
+  # Build job: responsible for building the static site
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4 # Checkout your repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: "18" # Or your preferred Node version
+          # Choose the Node.js version matching your project requirements
+          node-version: 20
+          # Optional: Use npm cache to speed up dependency installation
+          cache: "npm"
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci # 'ci' is generally recommended for CI environments for faster, cleaner installs
 
-      - name: Build
+      - name: Build static site
+        # IMPORTANT: Verify this command generates static files in the correct output directory
+        # E.g., For Next.js static export, ensure 'next export' runs or 'output: export' is set
         run: npm run build
+        # Optional: Set environment variables if your build needs them
+        # env:
+        #   PUBLIC_URL: /${{ github.event.repository.name }}/ # Example for project pages
 
-      - name: Upload artifact
+      - name: Check build output (for debugging)
+        # Optional: Helps verify the contents before upload if you encounter issues later
+        run: |
+          echo "--- Listing build output contents (./out) ---"
+          ls -lahR ./out
+          echo "--- Checking size of build output (./out) ---"
+          du -sh ./out
+
+      - name: Upload artifact for deployment
         uses: actions/upload-artifact@v4
         with:
+          # Name MUST be 'github-pages' for deploy-pages action to find it by default
           name: github-pages
-          path: ./out # Next.js static output directory
+          # IMPORTANT: Change './out' if your build script outputs to a different directory!
+          path: ./out
+          # Optional: Set artifact retention period (1 day is usually sufficient)
+          retention-days: 1
 
+  # Deployment job: responsible for deploying the artifact to GitHub Pages
   deploy:
+    # Requires the 'build' job to complete successfully first
     needs: build
-    runs-on: ubuntu-latest
+
+    # Grant permissions necessary for deployment (already set globally, but explicit here for clarity)
+    permissions:
+      pages: write
+      id-token: write
+
+    # Deploy to the github-pages environment
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }} # Sets the URL output for the environment
+
+    # Use the latest Ubuntu runner
+    runs-on: ubuntu-latest
+
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v3
+        id: deployment # Assign an ID to refer to outputs
+        uses: actions/deploy-pages@v4
+        # No 'with:' required here if using the default artifact name 'github-pages'
