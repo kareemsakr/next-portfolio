@@ -687,7 +687,7 @@ export default function Home() {
                 <h3 className="text-2xl md:text-3xl font-bold">
                   Senior Frontend Developer
                 </h3>
-                <p className="text-lg text-gray-500 mt-2">BBY Canada</p>
+                <p className="text-lg text-gray-500 mt-2">BestBuy Canada</p>
               </header>
 
               <div className="space-y-8">
